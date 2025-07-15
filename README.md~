@@ -1,0 +1,49 @@
+NLP for Hotel Review Sentiment Analysis
+This is a practice project in Natural Language Processing (NLP) focused on analyzing hotel reviews to understand what aspects of a hotel stay 
+contribute to customer satisfaction. The dataset includes structured information (e.g., hotel location, stay duration) and unstructured text 
+data (positive and negative reviews), with the target variable Reviewer_Score indicating sentiment (1 = positive, 0 = negative).
+
+Project Workflow
+
+1. Exploratory Data Analysis (EDA)
+
+- [X] Loaded and explored the dataset to understand key features.
+
+- [X] Cleaned and preprocessed text and numerical data.
+
+- [X] Generated visualizations and summary statistics.
+
+2. Text Preprocessing
+
+- [X] Cleaned review text (tokenization, lowercasing, punctuation removal).
+
+- [X] Used CountVectorizer to transform review texts separately for positive and negative columns.
+
+- [X] Combined vectorized text with original numerical features for modeling.
+
+3. Modeling and Evaluation
+
+    a. Logistic Regression:
+
+    - [X] Trained and evaluated on accuracy.
+
+    - [X] Identified top 20 positive and negative words most predictive of sentiment.
+
+    b. PCA + Decision Tree:
+
+    - [ ] Built using a pipeline with PCA, using 20 principal components.
+
+    - [ ] Tuned hyperparameters via 5-fold cross-validation.
+
+    - [ ] Compared performance with logistic regression.
+
+    - [ ] Evaluated best model using confusion matrix, precision, recall, and discussed model errors.
+
+
+Objectives
+Practice full NLP pipeline: from EDA to preprocessing, modeling, and evaluation.
+
+Identify review patterns and keywords associated with guest satisfaction.
+
+Draw actionable insights from model outputs and performance metrics.
+
