@@ -31,13 +31,13 @@ Project Workflow
 
     b. PCA + Decision Tree:
 
-    - [ ] Built using a pipeline with PCA, using 20 principal components.
+    - [X] Built using a pipeline with PCA, using 20 principal components.
 
-    - [ ] Tuned hyperparameters via 5-fold cross-validation.
+    - [X] Tuned hyperparameters via 5-fold cross-validation.
 
-    - [ ] Compared performance with logistic regression.
+    - [X] Compared performance with logistic regression.
 
-    - [ ] Evaluated best model using confusion matrix, precision, recall, and discussed model errors.
+    - [X] Evaluated best model using confusion matrix, precision, recall, and discussed model errors.
 
 
 Objectives
